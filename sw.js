@@ -1,7 +1,7 @@
 /* FORGE · service worker: la app abre sin conexión.
    Estrategia: la página se pide primero a la red (así llegan las actualizaciones)
    y, si no hay conexión, se sirve la última copia guardada. */
-const VERSION = 'forge-1.7.0';
+const VERSION = 'forge-1.7.1';
 const CORE = ['./', './index.html'];
 
 self.addEventListener('install', e => {
